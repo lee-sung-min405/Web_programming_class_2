@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  table {
+  
+    border: 1px solid #444444;
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 1px solid #444444;
+  }
+</style>
+</head>
+<body>
+
+<h2> 
+"열심히하자" 조  편성 데이터
+</h2>
+
+<?php
+
+$name1 = "이승훈";
+$tel1 = "20193134";
+$email1 = "friox@naver.com";
+
+$name2 = "이주환";
+$tel2= "20193125";
+$email2 = "juhwan@naver.com";
+
+$name3 = "이성민";
+$tel3 = "20193127";
+$email3 = "esm211@naver.com";
+
+$name4 = "백승준";
+$tel4 = "20193129";
+$email4 = "flskhhdf@naver.com";
+
+echo "<table>
+<tr>
+<td>이름</td>
+<td>학번</td>
+<td>이메일</td>
+</tr>
+<tr>
+
+<td>$name1</td>
+<td>$tel1</td>
+<td>$email1</td> 
+</tr>
+
+<tr>
+<td>$name2</td>
+<td>$tel2</td>
+<td>$email2</td> 
+</tr>
+
+<tr>
+<td>$name3</td>
+<td>$tel3</td>
+<td>$email3</td> 
+</tr>
+
+<tr>
+<td>$name4</td>
+<td>$tel4</td>
+<td>$email4</td> 
+</tr>
+</table>
+";
+?>
+
+</body>
+</html>
